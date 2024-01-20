@@ -11,11 +11,11 @@ This project depends on Docker to setup database. With Docker installed, clone t
 > You must also run migrations to create database tables and run the seed to populate the database with fake data.
 
 ```sh
-bun i
+cli/bun i
 docker compose up -d
-bun migrate
-bun seed
-bun dev
+cli/bun migrate
+cli/bun seed
+cli/bun dev
 ```
 
 ## Features
